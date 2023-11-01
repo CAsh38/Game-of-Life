@@ -1,0 +1,15 @@
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\bin\Release\Game of life.exe.config
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\bin\Release\Game of life.exe.manifest
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\bin\Release\Game of life.application
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\bin\Release\Game of life.exe
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\bin\Release\Game of life.pdb
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.csproj.AssemblyReference.cache
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.csproj.SuggestedBindingRedirects.cache
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game_of_life.Form1.resources
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game_of_life.Properties.Resources.resources
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.csproj.GenerateResource.cache
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.csproj.CoreCompileInputs.cache
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.exe.manifest
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.application
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.exe
+C:\Users\Julian\source\repos\Cellular Automata\Game of life\obj\Release\Game of life.pdb

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Game of life.exe" version="1.0.0.0" publicKeyToken="9e53db05f2b65172" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Game of life" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Game of life.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Game of life.exe" size="19432">
+      <assemblyIdentity name="Game of life" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>obdnoe8OR3GpJIVmzM6xvUngQRk5JWizZL8WUrJe/Fk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Game of life.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1AOB5BA\Julian" issuerKeyHash="3e723aeb9fbeca4d7bf1b8d6b78cf8a9b869a48a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4YxL8xK4KXeuRtGcOanwAGqqNfJrnjZ83hoJAmNIi6s=</DigestValue></Reference></SignedInfo><SignatureValue>jZ8A2BiFohaPHt0bwGtf3EEPPbwq0Zd6pQGBK3s2w10WEyVzIUxhkKFjewlx/GEJ1OUGsE43XPpkYJjhvwPQAk82A5TjkzRpHbGi61nvftHPgJTxZAaV8y3wPeMJvWpJJCPSkIz+imkLBNLNnfOBeREF/nI0cPDi5w398HI9H/4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rvyDNnXu1w+L28G1XO70j2VY5+0HVAdXqyNPSoIq71TbOm29fUuXxsUH7pFfxbjVMBrb7IjrBjnRtnUlefsg+U0NwOBEYljsze5FXPQoQy9FuPGFdP4Pq8a674FaOrhuNFMtXI6s8XZ2klqNMgISBmj8+SBFKmkqPZ9554i+xn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab8b486302091ade7c369e6bf235aa6a00f0a9399cd146ae7729b812f34b8ce1" Description="" Url=""><as:assemblyIdentity name="Game of life.exe" version="1.0.0.0" publicKeyToken="9e53db05f2b65172" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1AOB5BA\Julian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rCWdHYzi6yxvrOzlAWEGaSd+DPkQ4yUbEKX3yHaXi5c=</DigestValue></Reference></SignedInfo><SignatureValue>cMFwHGjtW65jOFnTIj8APHDQZU0M47wBcbKEbWviHIgnh5SJyn6X10klwPDVzEykg2pQ53nK80hE1xKH+//ivgtKLae6+nBbmKHPmGRxuu3aHayGrApaWMxui7iU3zLTBFXd6eIjMnsr1fziD9kuZgI4HjJaG3aBT2MjxZcjRdc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rvyDNnXu1w+L28G1XO70j2VY5+0HVAdXqyNPSoIq71TbOm29fUuXxsUH7pFfxbjVMBrb7IjrBjnRtnUlefsg+U0NwOBEYljsze5FXPQoQy9FuPGFdP4Pq8a674FaOrhuNFMtXI6s8XZ2klqNMgISBmj8+SBFKmkqPZ9554i+xn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQEh5K9/D4CKNEy/HNRt8IWzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADEAQQBPAEIANQBCAEEAXABKAHUAbABpAGEAbjAeFw0yMzA2MDQxMjAyMDFaFw0yNDA2MDMxODAyMDFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMQBBAE8AQgA1AEIAQQBcAEoAdQBsAGkAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCu/IM2de7XD4vbwbVc7vSPZVjn7QdUB1erI09KgirvVNs6bb19S5fGxQfukV/FuNUwGtvsiOsGOdG2dSV5+yD5TQ3A4ERiWOzN7kVc9ChDL0W48YV0/g+rxrrvgVo6uG40Uy1cjqzxdnaSWo0yAhIGaPz5IEUqaSo9n3nniL7GfQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABkeDtFfPVZu+Zi/sFvb3y9iXm5wrEn+QYXR+RjCMQdLehs+JrLJ4MXHsp1oWxJhrVzmYnfvGYEp0n8ek763defRomyeWA5r1bZc0175t2pe41a1zQLLdySBrLpXSgoct9vbTsxLh8kHgk+7MVxqlG/LxWH3OW70WtCCKGMT/KSE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
